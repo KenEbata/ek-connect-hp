@@ -5,13 +5,7 @@ module.exports = {
     'prettier',
     'prettier/@typescript-eslint',
   ],
-  plugins: [
-    'react',
-    '@typescript-eslint',
-    'jsx-a11y',
-    'import',
-    'prettier',
-  ],
+  plugins: ['react', '@typescript-eslint', 'jsx-a11y', 'import', 'prettier'],
   // 他の設定...
   settings: {
     'import/resolver': {

@@ -1,7 +1,6 @@
 import type { Config } from 'tailwindcss';
 
 const config: Config = {
-  mode: 'jit',
   purge: [
     './src/pages/**/*.{js,ts,jsx,tsx}',
     './src/components/**/*.{js,ts,jsx,tsx}',
@@ -21,5 +20,6 @@ const config: Config = {
     },
   },
   plugins: [],
+  darkMode: 'class',
 };
 export default config;
